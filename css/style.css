@@ -362,6 +362,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   line-height: 1.5;
+  height: 250px;
 }
 
 #section-six .footer .footer__about {
