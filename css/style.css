@@ -222,12 +222,17 @@ body {
           justify-content: center;
 }
 
-#section-three .projects .projects__content .projects__content__card {
+#section-three .projects .projects__content a {
+  text-decoration: none;
+  color: #BCB4B4;
+}
+
+#section-three .projects .projects__content a .projects__content__card {
   position: relative;
   height: 100%;
 }
 
-#section-three .projects .projects__content .projects__content__card .img-content {
+#section-three .projects .projects__content a .projects__content__card .img-content {
   margin: 20px 0px;
   width: 485px;
   height: 277px;
@@ -238,24 +243,19 @@ body {
   cursor: pointer;
 }
 
-#section-three .projects .projects__content .projects__content__card .img-content:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-#section-three .projects .projects__content .projects__content__card .work-one {
+#section-three .projects .projects__content a .projects__content__card .work-one {
   background-image: url(../images/UTM.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#section-three .projects .projects__content .projects__content__card .work-two {
+#section-three .projects .projects__content a .projects__content__card .work-two {
   background-image: url(../images/clock.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#section-three .projects .projects__content .projects__content__card .text-content {
+#section-three .projects .projects__content a .projects__content__card .text-content {
   font-size: 15px;
   padding: 30px;
   background: var(--deep-dark);
@@ -264,11 +264,6 @@ body {
   width: 485px;
   height: 150px;
   cursor: pointer;
-}
-
-#section-three .projects .projects__content .projects__content__card .text-content:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 #section-four {
