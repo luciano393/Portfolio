@@ -176,42 +176,40 @@ body {
             display: flex;
             gap: 2em;
             justify-content: center;
-            .projects__content__card {
-                position: relative;
-                height: 100%;
-                .img-content {
-                    margin: 20px 0px;
-                    width: 485px;
-                    height: 277px;
-                    border: 1px solid var(--gray-1);
-                    border-radius: 15px;
-                    box-shadow: 2px -1px 0px rgba($color: #000000, $alpha: 0.3);
-                    cursor: pointer;
-                    &:hover {
-                        transform: scale(1.1);
+            a {
+                text-decoration: none;
+                color: #BCB4B4;
+                .projects__content__card {
+                    position: relative;
+                    height: 100%;
+                    .img-content {
+                        margin: 20px 0px;
+                        width: 485px;
+                        height: 277px;
+                        border: 1px solid var(--gray-1);
+                        border-radius: 15px;
+                        box-shadow: 2px -1px 0px rgba($color: #000000, $alpha: 0.3);
+                        cursor: pointer;
                     }
-                }
-                .work-one {
-                    background-image: url(../images/UTM.png);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .work-two {
-                    background-image: url(../images/clock.png);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .text-content {
-                    font-size: 15px;
-                    padding: 30px;
-                    background: var(--deep-dark);
-                    border: 1px solid var(--gray-1);
-                    border-radius: 15px;
-                    width: 485px;
-                    height: 150px;
-                    cursor: pointer; 
-                    &:hover {
-                        transform: scale(1.1);
+                    .work-one {
+                        background-image: url(../images/UTM.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .work-two {
+                        background-image: url(../images/clock.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .text-content {
+                        font-size: 15px;
+                        padding: 30px;
+                        background: var(--deep-dark);
+                        border: 1px solid var(--gray-1);
+                        border-radius: 15px;
+                        width: 485px;
+                        height: 150px;
+                        cursor: pointer;
                     }
                 }
             }
