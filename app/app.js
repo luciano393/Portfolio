@@ -5,11 +5,6 @@ btn.addEventListener('click', showMenu)
 function showMenu(e) {
     menu.classList.toggle('show')
 }
-
-
-
-
-
 /* Scroll Reveal */
 ScrollReveal().reveal('.content-img', { delay: 200 });
 ScrollReveal().reveal('.services__title', { delay: 200 });
