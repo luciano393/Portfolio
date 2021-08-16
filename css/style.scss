@@ -185,7 +185,7 @@ body {
                     .img-content {
                         margin: 20px 0px;
                         width: 485px;
-                        height: 277px;
+                        height: 273px;
                         border: 1px solid var(--gray-1);
                         border-radius: 15px;
                         box-shadow: 2px -1px 0px rgba($color: #000000, $alpha: 0.3);
@@ -321,27 +321,32 @@ body {
     .footer {
         background: var(--deep-dark);
         display: flex;
-        line-height: 1.5;
+        line-height: 1.3;
         height: 250px;
         .footer__about {
             padding: 20px;
+        h1 {
+            margin-bottom: 20px;
+        }
         }
         li {
             list-style: none;
             padding: 20px;
             h2 {
-                font-size: 24px;
+                font-size: 18px;
                 font-family: 'Montserrat';
+                margin-bottom: 20px;
             }
             a {
                 text-decoration: none;
                 color: var(--gray-1);
+                margin-bottom: 40px;
                 ion-icon {
                     font-size: 2em;
                 }
             }
             span {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 400;
             }
         }
@@ -384,20 +389,20 @@ body {
         height: 1000px;
         .menu-btn {
             z-index: 1;
-            display: inline;
+            display: inline-block;
             position: fixed;
             align-self: center;
-            right: 20px;
-            top: 30px;
+            top: 0;
             font-size: 3.5em;
-            text-align: center;
-            background-color: var(--deep-dark);
-            height: 70px;
-            width: 70px;
-            border-radius: 5px;
+            text-align: end;
+            width: 100%;
             color: var(--gray-1);
-            &:hover {
-                cursor: pointer;
+            background: var(--dark-bg);
+            box-shadow: 0 0 10px rgba($color: #000000, $alpha: .3);
+            ion-icon {
+                margin: 10px 10px 0 10px;
+                background: var(--deep-dark);
+                border-radius: 5px;
             }
         }
         .navegation {
@@ -588,6 +593,91 @@ body {
     #section-six {
         .footer {
             font-size: 14px;
+        }
+    }
+}
+@media (max-width:400px) {
+    #section-two {
+        .services {
+            .services__content {
+                .services__content__card {
+                    width: 250px;
+                    font-size: 12px;
+                    padding: auto;
+                    p {
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+    #section-three {
+        .projects {
+            padding-top: 25px;
+            .projects__title {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+            .projects__content {
+                a {         
+                    .projects__content__card {
+                        width: 300px;
+                        margin: 50px auto;
+                        .img-content {
+                            width: 300px;
+                            height: 170px;
+                        }
+                        .text-content {
+                            width: 300px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section-four {
+        height: 800px;
+        .about {
+            width: 100%;
+            .about__text-content {
+                padding-left: 10px;
+                h2 {
+                    font-size: 30px;
+                }
+                .btn {
+                    width: 150px;
+                    font-size: 16px;
+                }
+                .btn-outline {
+                    width: 200px;
+                    font-size: 16px;
+                }
+            }
+            .about__img-content {
+                .img-one {
+                    width: 250px;
+                    height: 350px;
+                    background-size: 250px;
+                }
+                .img-two {
+                    width: 150px;
+                    height: 200px;
+                    background-size: 150px;
+                    left: 10px;
+                }
+            }
+        }
+    }
+    #section-five {
+        .content {
+            h1 {
+                font-size: 25px;
+            }
+            .btn {
+                font-size: 15px;
+            }
         }
     }
 }
