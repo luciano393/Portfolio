@@ -1,5 +1,6 @@
 const btn = document.getElementById('menu-btn')
 const menu = document.querySelector('.navegation__menu')
+
 btn.addEventListener('click', showMenu)
 
 function showMenu(e) {
