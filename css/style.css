@@ -416,6 +416,10 @@ body {
   color: var(--gray-1);
 }
 
+#section-six .footer li a ion-icon {
+  font-size: 2em;
+}
+
 #section-six .footer li span {
   font-size: 16px;
   font-weight: 400;
@@ -561,11 +565,36 @@ body {
 }
 
 @media (max-width: 700px) {
-  #section-four {
-    height: 1100px;
+  #section-one {
+    height: 900px;
   }
-  #section-four .about__img-content {
-    top: 50px;
+  #section-one .hero {
+    height: 850px;
+  }
+  #section-one .hero .hero__content {
+    width: 300px;
+  }
+  #section-one .hero .hero__content h1 {
+    font-size: 35px;
+    left: 50px;
+  }
+  #section-one .hero .hero__content .content-img {
+    width: 300px;
+    height: 400px;
+  }
+  #section-one .hero .hero__content .text-img {
+    width: 300px;
+    margin: auto;
+  }
+  #section-one .hero .hero__content .btn {
+    width: 300px;
+    left: 0;
+  }
+  #section-two .services .services__title h2 {
+    font-size: 50px;
+  }
+  #section-two .services .services__content .services__content__card {
+    width: 350px;
   }
   #section-two .services .services__content .services__content__card {
     width: 350px;
@@ -574,6 +603,55 @@ body {
   }
   #section-two .services .services__content .services__content__card p {
     width: auto;
+  }
+  #section-three .projects {
+    padding-top: 25px;
+  }
+  #section-three .projects .projects__title h2 {
+    font-size: 50px;
+  }
+  #section-three .projects .projects__content a .projects__content__card {
+    width: 400px;
+    margin: 50px auto;
+  }
+  #section-three .projects .projects__content a .projects__content__card .img-content {
+    width: 399px;
+    height: 228px;
+  }
+  #section-three .projects .projects__content a .projects__content__card .text-content {
+    width: 399px;
+  }
+  #section-four {
+    height: 800px;
+  }
+  #section-four .about {
+    width: 100%;
+  }
+  #section-four .about .about__text-content h2 {
+    font-size: 50px;
+  }
+  #section-four .about .about__img-content {
+    top: 50px;
+  }
+  #section-four .about .about__img-content .img-one {
+    width: 300px;
+    height: 400px;
+    background-size: 300px;
+  }
+  #section-four .about .about__img-content .img-two {
+    width: 200px;
+    height: 233px;
+    background-size: 200px;
+    left: 10px;
+  }
+  #section-five .content h1 {
+    font-size: 30px;
+  }
+  #section-five .content .btn {
+    font-size: 20px;
+  }
+  #section-six .footer {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */
