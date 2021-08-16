@@ -336,6 +336,9 @@ body {
             a {
                 text-decoration: none;
                 color: var(--gray-1);
+                ion-icon {
+                    font-size: 2em;
+                }
             }
             span {
                 font-size: 16px;
@@ -469,10 +472,43 @@ body {
 }
 
 @media (max-width:700px) {
-    #section-four {
-        height: 1100px;
-        .about__img-content {
-            top: 50px;
+    #section-one {
+        height: 900px;
+        .hero {
+            height: 850px;
+            .hero__content {
+                width: 300px;
+                h1 {
+                    font-size: 35px;
+                    left: 50px;
+                }
+                .content-img {
+                    width: 300px;
+                    height: 400px;
+                }
+                .text-img {
+                    width: 300px;
+                    margin: auto;
+                }
+                .btn {
+                    width: 300px;
+                    left: 0;
+                }
+            }
+        }
+    }
+    #section-two {
+        .services {
+            .services__title {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+            .services__content {
+                .services__content__card {
+                    width: 350px;
+                }
+            }
         }
     }
     #section-two {
@@ -487,6 +523,71 @@ body {
                     }
                 }
             }
+        }
+    }
+    #section-three {
+        .projects {
+            padding-top: 25px;
+            .projects__title {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+            .projects__content {
+                a {         
+                    .projects__content__card {
+                        width: 400px;
+                        margin: 50px auto;
+                        .img-content {
+                            width: 399px;
+                            height: 228px;
+                        }
+                        .text-content {
+                            width: 399px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section-four {
+        height: 800px;
+        .about {
+            width: 100%;
+            .about__text-content {
+                h2 {
+                    font-size: 50px;
+                }
+            }
+            .about__img-content {
+                top: 50px;
+                .img-one {
+                    width: 300px;
+                    height: 400px;
+                    background-size: 300px;
+                }
+                .img-two {
+                    width: 200px;
+                    height: 233px;
+                    background-size: 200px;
+                    left: 10px;
+                }
+            }
+        }
+    }
+    #section-five {
+        .content {
+            h1 {
+                font-size: 30px;
+            }
+            .btn {
+                font-size: 20px;
+            }
+        }
+    }
+    #section-six {
+        .footer {
+            font-size: 14px;
         }
     }
 }
