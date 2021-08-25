@@ -70,6 +70,7 @@ section {
   color: #fff;
   font-size: 1.7rem;
   cursor: pointer;
+  border-radius: .2rem;
 }
 
 .btn:hover {
