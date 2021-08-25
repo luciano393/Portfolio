@@ -201,7 +201,6 @@ header .btn-menu {
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
   border-radius: .5rem;
-  border: .5rem solid #222;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
