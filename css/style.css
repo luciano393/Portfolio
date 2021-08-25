@@ -166,7 +166,7 @@ header .btn-menu {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 1rem solid var(--cyan);
+  border: 0.5rem solid var(--cyan);
 }
 
 .home .home-container h3 {
