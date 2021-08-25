@@ -162,6 +162,27 @@ header {
             overflow: hidden;
             height: 25rem;
             background: var(--bg-section);
+            &:hover {
+                .content {
+                    left: 0;
+                }
+            }
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            .content {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 100%;
+                background: #fff9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }
