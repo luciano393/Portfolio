@@ -358,6 +358,7 @@ footer {
             margin-bottom: .3rem;
             &:hover {
                 text-decoration: underline;
+                text-decoration-color: var(--cyan);
             }
         }
         span {
@@ -365,6 +366,7 @@ footer {
             margin-bottom: .3rem;
             &:hover {
                 text-decoration: underline;
+                text-decoration-color: var(--cyan);
             }
         }
     }
