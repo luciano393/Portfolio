@@ -268,8 +268,6 @@ header .btn-menu {
 
 .skills .box-container .box ion-icon:hover {
   color: var(--cyan);
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
 }
 
 .skills .box-container .box h3 {
