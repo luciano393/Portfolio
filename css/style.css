@@ -469,6 +469,8 @@ footer li a {
 
 footer li a:hover {
   text-decoration: underline;
+  -webkit-text-decoration-color: var(--cyan);
+          text-decoration-color: var(--cyan);
 }
 
 footer li span {
@@ -478,6 +480,8 @@ footer li span {
 
 footer li span:hover {
   text-decoration: underline;
+  -webkit-text-decoration-color: var(--cyan);
+          text-decoration-color: var(--cyan);
 }
 
 /*  Media Queries */
