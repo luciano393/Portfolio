@@ -489,9 +489,9 @@ footer {
   width: 100%;
   background: #222;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 footer li {
@@ -628,6 +628,11 @@ footer li span:hover {
   }
   .contact .row form .inputBox input {
     width: 100%;
+  }
+  footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer li {
     margin: 2rem 3rem;
