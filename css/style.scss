@@ -12,7 +12,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 html {
@@ -203,17 +202,14 @@ header {
             ion-icon {
                 font-size: 10rem;
                 color: rgba(0,0,0,.8);
+                margin-bottom: 2rem;
                 &:hover {
                     color: var(--cyan);
                 }
             }
             h3 {
                 font-size: 3rem;
-            }
-            p {
-                font-size: 2rem;
-                padding: 2rem;
-                line-height: 1.8;
+                margin-bottom: 1rem;
             }
         }
     }
@@ -221,28 +217,57 @@ header {
 /* Section technologies */
 .technologies {
     padding: 6rem 0;
+    width: 100%;
     .box-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        ion-icon {
-            flex: 1 1 30rem;
-            border-radius: .5rem;
-            box-shadow: 0 0 1rem rgba(0,0,0,.1);
-            position: relative;
-            overflow: hidden;
-            font-size: 15rem;
-            background: var(--bg-section);
-            color: rgba(0,0,0,.8);
-            padding: 5rem 0;
+        height: 250px;
+        margin: 6rem auto 3rem auto;
+        position: relative;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        .slide-track {
+            display: flex;
+            width: calc(300px * 12);
+            animation: scroll 40s linear infinite;
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                } 
+                100% {
+                    transform: translateX(calc(-300px * 6));
+                }
+             }
             &:hover {
-                box-shadow: 0 0 3rem rgba(0,0,0,.4);
-                color: var(--cyan);
-                background: rgba(250,250,250,.6);
+                animation-play-state: paused;
+            }
+            .slide {
+                height: 200px;
+                width: 300px;
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                perspective: 100px;
+                ion-icon {
+                    flex: 1 1 30rem;
+                    border-radius: .5rem;
+                    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+                    position: relative;
+                    font-size: 15rem;
+                    background: var(--bg-section);
+                    color: rgba(0,0,0,.8);
+                    padding: 5rem 2rem;
+                    &:hover {
+                        box-shadow: 0 0 3rem rgba(0,0,0,.4);
+                        color: var(--cyan);
+                        background: rgba(250,250,250,.6);
+                        transform: translateZ(10px);
+                    }
+                }
             }
         }
     }
 }
+
 /* Sección about */
 .about {
     .content {
@@ -363,7 +388,7 @@ footer {
         }
         span {
             font-size: 2rem;
-            margin-bottom: .3rem;
+            margin-bottom: 1rem;
             &:hover {
                 text-decoration: underline;
                 text-decoration-color: var(--cyan);
