@@ -226,16 +226,29 @@ header .btn-menu {
   position: absolute;
   top: 0;
   left: 100%;
-  background: #fff9;
+  background: #d3d3d3;
+  opacity: .9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.portfolio .box-container .box .content p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 0 5rem;
+  font-weight: bold;
 }
 
 /* Sección skills */
