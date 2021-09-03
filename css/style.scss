@@ -370,7 +370,7 @@ footer {
     width: 100%;
     background: #222;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     li {
         display: flex;
         flex-direction: column;
@@ -481,6 +481,7 @@ footer {
         width:100%;
     }
     footer {
+        justify-content: center;
         li {
             margin: 2rem 3rem;
         }
