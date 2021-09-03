@@ -41,7 +41,7 @@ body {
 }
 
 section {
-  padding: 4rem 9%;
+  padding: 6rem 9%;
   min-height: 100vh;
   width: 100%;
 }
@@ -118,7 +118,7 @@ header .btn-menu {
   position: fixed;
   z-index: 1;
   top: 1rem;
-  left: 1rem;
+  right: 1rem;
   padding: 1.4rem 1rem;
   border-radius: 0.5rem;
   color: #222;
@@ -143,6 +143,7 @@ header .btn-menu {
 }
 
 .home .home-container {
+  margin-top: 4rem;
   text-align: center;
   position: relative;
 }
