@@ -33,14 +33,12 @@ html::-webkit-scrollbar-thumb{
   
 body{
     background:#b3b3b3;
-    padding-right: 5rem;
 }
   
 section{
     padding:4rem 9%;
     min-height: 100vh;
-    width: 95vw;
-    margin-left: 7rem;
+    width: 100%;
 }
   
 .heading{
@@ -76,8 +74,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 100vh;
-    width: 8rem;
+    right: 0;
+    width: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -85,18 +83,14 @@ header {
     z-index: 1000;
     .menu {
         display: flex;
-        flex-direction: row-reverse;
-        transform: rotate(180deg);
-        writing-mode: vertical-lr;
         font-size: 2rem;
         font-weight: 600;
         a {
-            padding: 1.5rem;
+            padding: 2rem;
             width: auto;
             color: #fff;
             &:hover {
                 color: #d3d3d3;
-                transform: rotate(90deg);
                 background: var(--cyan);
             }
         }
@@ -372,8 +366,7 @@ header {
 
 footer {
     display: flex;
-    width: 95vw;
-    margin-left: 7rem;
+    width: 100%;
     background: #222;
     text-align: center;
     justify-content: center;
@@ -462,7 +455,6 @@ footer {
         }
     }
     footer {
-        margin-left: 0;
         width: 100%;
         flex-wrap: wrap;
     }
