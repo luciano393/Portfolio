@@ -141,16 +141,16 @@
         <h1 class="heading"> Contact <span>me</span> </h1>
         <div class="row">
 
-            <form action="enviar.php" method="post">
+            <form action="enviar.php" method="post" name="contact-form">
     
                 <div class="inputBox">
-                    <input id="name" name="name" type="text" placeholder="Name" class="name">
-                    <input id="email" name="mail" type="email" placeholder="Email" class="email">
+                    <input id="name" name="name" type="text" placeholder="Name" class="name" required="required">
+                    <input id="email" name="mail" type="email" placeholder="Email" class="email" required="required">
                 </div>
     
                 <textarea placeholder="Message" name="message" id="message" cols="30" rows="10" class="message"></textarea>
     
-                <input type="submit" class="btn" value="send message">
+                <input type="submit" class="btn" value="Send message">
     
             </form>
         </div>
