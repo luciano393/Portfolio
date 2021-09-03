@@ -281,6 +281,10 @@ header .btn-menu {
 }
 
 /* Section technologies */
+.technologies {
+  padding: 6rem 0;
+}
+
 .technologies .box-container {
   display: -webkit-box;
   display: -ms-flexbox;
