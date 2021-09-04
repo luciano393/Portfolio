@@ -379,7 +379,7 @@ header .btn-menu {
   color: #333;
   font-size: 2rem;
   padding: 1rem 0;
-  line-height: 2;
+  line-height: 1.6;
 }
 
 .about .box-container {
@@ -402,7 +402,7 @@ header .btn-menu {
   font-size: 2rem;
   color: #222;
   padding: .5rem 0;
-  line-height: 2;
+  line-height: 1.4;
 }
 
 .about .box-container .box p span {
@@ -488,7 +488,6 @@ footer {
   display: flex;
   width: 100%;
   background: #222;
-  text-align: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
