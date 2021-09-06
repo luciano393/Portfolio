@@ -52,11 +52,13 @@ section {
   font-size: 5rem;
   text-transform: uppercase;
   color: #111;
+  text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .heading span {
   text-transform: uppercase;
   color: var(--cyan);
+  text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .btn {
@@ -68,6 +70,8 @@ section {
   font-size: 1.7rem;
   cursor: pointer;
   border-radius: .2rem;
+  -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
@@ -93,6 +97,8 @@ header {
           justify-content: center;
   background: #222;
   z-index: 1000;
+  -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 header .menu {
@@ -155,17 +161,21 @@ header .btn-menu {
   -o-object-fit: cover;
      object-fit: cover;
   border: 0.5rem solid var(--cyan);
+  -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .home .home-container h3 {
   font-size: 4rem;
   color: #222;
   text-transform: uppercase;
+  text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .home .home-container h3 span {
   color: var(--cyan);
   text-transform: uppercase;
+  text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .home .home-container p {
@@ -189,8 +199,8 @@ header .btn-menu {
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
   border-radius: .5rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   position: relative;
   overflow: hidden;
   height: 25rem;
@@ -255,8 +265,8 @@ header .btn-menu {
           flex: 1 1 30rem;
   border-radius: .5rem;
   background: var(--bg-section);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   padding: 3rem;
   text-align: center;
 }
@@ -346,8 +356,8 @@ header .btn-menu {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   border-radius: .5rem;
   position: relative;
   font-size: 15rem;
@@ -425,8 +435,8 @@ header .btn-menu {
 
 .contact .row form {
   padding: 1rem 2rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   border-radius: .5rem;
   background: var(--bg-section);
   max-width: 45rem;
@@ -487,7 +497,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background: #222;
+  background: #111;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
