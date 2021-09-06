@@ -605,10 +605,6 @@ footer li span:hover {
     font-size: 3rem;
     text-align: center;
   }
-  header .menu a:hover {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
   header .btn-menu {
     display: -webkit-box;
     display: -ms-flexbox;
