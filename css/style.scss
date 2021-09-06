@@ -451,6 +451,10 @@ footer {
                 width: 100%;
                 font-size: 3rem;
                 text-align: center;
+                &:hover {
+                    background: none;
+                    color: #fff;
+                }
             }
         }
         .btn-menu {
