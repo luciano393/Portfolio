@@ -251,10 +251,10 @@ header {
                 align-items: center;
                 padding: 15px;
                 perspective: 100px;
+                box-shadow: 0 0 1rem rgba(0,0,0,.1);
                 ion-icon {
                     flex: 1 1 30rem;
                     border-radius: .5rem;
-                    box-shadow: 0 0 1rem rgba(0,0,0,.1);
                     position: relative;
                     font-size: 15rem;
                     background: var(--bg-section);
