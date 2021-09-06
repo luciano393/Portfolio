@@ -605,6 +605,10 @@ footer li span:hover {
     font-size: 3rem;
     text-align: center;
   }
+  header .menu a:hover {
+    background: none;
+    color: #fff;
+  }
   header .btn-menu {
     display: -webkit-box;
     display: -ms-flexbox;
