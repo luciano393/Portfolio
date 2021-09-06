@@ -46,7 +46,7 @@ section{
     padding-bottom: 2rem;
     font-size: 5rem;
     text-transform: uppercase;
-    color:#222;
+    color:#111;
     span{
         text-transform: uppercase;
         color:var(--cyan);
@@ -57,7 +57,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     padding:.8rem 3rem;
-    background:#222;
+    background:#111;
     color:#fff;
     font-size: 1.7rem;
     cursor: pointer;
@@ -251,9 +251,9 @@ header {
                 align-items: center;
                 padding: 15px;
                 perspective: 100px;
-                box-shadow: 0 0 1rem rgba(0,0,0,.1);
                 ion-icon {
                     flex: 1 1 30rem;
+                    box-shadow: 0 0 1rem rgba(0,0,0,.3);
                     border-radius: .5rem;
                     position: relative;
                     font-size: 15rem;
@@ -320,7 +320,7 @@ header {
             box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
             border-radius: .5rem;
             background: var(--bg-section);
-            max-width: 60rem;
+            max-width: 45rem;
             .inputBox {
                 display: flex;
                 justify-content: space-between;
