@@ -141,17 +141,23 @@
         <h1 class="heading"> Contact <span>me</span> </h1>
         <div class="row">
 
-            <form>
+            <form class="contact-form">
     
                 <div class="inputBox">
-                    <input id="name" name="name" type="text" placeholder="Name" class="name" required="required">
-                    <input id="email" name="mail" type="email" placeholder="Email" class="email" required="required">
+                    <input name="name" type="text" placeholder="Name" class="name" required="required" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Name only supports letters and blanks">
+                    <input name="mail" type="email" placeholder="Email" class="email" required="required" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" title="Incorrect email">
+                    <input type="text" name="subject" placeholder="Subjet" title="The subject is required" required>
                 </div>
     
-                <textarea placeholder="Message" name="message" id="message" cols="30" rows="10" class="message"></textarea>
+                <textarea placeholder="Message" name="message" cols="30" rows="10" class="message" required data-pattern="^.{1,255}$" title="Your comment must not exceed 255 characters"></textarea>
     
                 <input type="submit" class="btn" value="Send message">
-    
+                <div class="contact-form-loader none">
+                    <img src="/images/rings.svg" alt="loading">
+                </div>
+                <div class="contact-form-response none">
+                    <p>Los datos han sido enviados</p>
+                </div>
             </form>
         </div>
     </section>
