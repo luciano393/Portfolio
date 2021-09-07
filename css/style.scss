@@ -281,41 +281,54 @@ header {
 
 /* Sección about */
 .about {
-    .content {
-        h3 {
-            color:#222;
-            font-size: 5rem;
-            span {
-                color:var(--cyan);
-            }
-        }
-        .info {
-            color:#333;
-            font-size: 2rem;
-            padding:1rem 0;
-             line-height: 1.6;
-        }
-    }
     .box-container {
         display: flex;
         flex-wrap: wrap;
         gap:1.5rem;
         padding:1rem 0;
-        .box {
-            flex:1 1 20rem;
-            p {
-                font-size: 2rem;
+        .content {
+            flex:1 1 45rem;
+            h3 {
                 color:#222;
-                padding:.5rem 0;
-                line-height: 1.4;
+                font-size: 4rem;
+                margin-bottom: 2rem;
                 span {
                     color:var(--cyan);
-                    font-weight: bold;
                 }
+            }
+            .info {
+                color:#333;
+                font-size: 2rem;
+                padding:1rem 0;
+                line-height: 1.6;
+                margin-bottom: 2rem;
+            }
+            .box {
+                p {
+                    font-size: 2rem;
+                    color:#222;
+                    padding:.5rem 0;
+                    line-height: 1.4;
+                    span {
+                        color:var(--cyan);
+                        font-weight: bold;
+                    }
+                }
+                .flex {
+                    display: flex;
+                    gap: 0 4rem;
+                }
+            }
+        }
+        .content-image {
+            flex: 1 1 45rem;
+            img {
+                width: 100%;
             }
         }
     }
 }
+    
 /* Sección contact */
 .contact {
     .row {
