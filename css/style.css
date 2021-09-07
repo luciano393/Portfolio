@@ -731,6 +731,11 @@ footer li span:hover {
   .technologies .box-container {
     overflow: hidden;
   }
+  .flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .contact .row form .inputBox input {
     width: 100%;
   }
