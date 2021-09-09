@@ -276,7 +276,7 @@ header .btn-menu {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .portfolio .box-container .box {
