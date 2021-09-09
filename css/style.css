@@ -140,7 +140,7 @@ header .btn-menu {
 /* Animations */
 .tracking-in-contract-bck {
   -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 /* ----------------------------------------------
@@ -184,7 +184,7 @@ header .btn-menu {
 }
 
 .flip-in-hor-top {
-  -webkit-animation: flip-in-hor-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: flip-in-hor-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: flip-in-hor-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
