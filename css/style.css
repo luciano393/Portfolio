@@ -276,7 +276,7 @@ header .btn-menu {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .portfolio .box-container .box {
@@ -819,6 +819,9 @@ footer li span:hover {
   }
   .home {
     min-height: 70vh;
+  }
+  .box-container .box {
+    margin-bottom: 2rem;
   }
   .technologies .box-container {
     overflow: hidden;
