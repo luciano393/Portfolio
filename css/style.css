@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 :root {
-  --cyan: #0090a5;
-  --bg-section: rgba(250,250,250,.3);
+  --cyan: #8a1542;
+  --bg-section: rgba(200,200,200,.8);
   --color-error:  #d34015 ;
 }
 
@@ -39,6 +39,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
   background: #b3b3b3;
+  background-image: url(/images/low-poly-grid-haike.svg);
 }
 
 section {
@@ -467,7 +468,9 @@ header .btn-menu {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 1.5rem;
-  padding: 1rem 0;
+  padding: 3rem 5rem;
+  background-color: var(--bg-section);
+  border-radius: .5rem;
 }
 
 .about .box-container .content {
@@ -680,6 +683,7 @@ footer {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  padding: 0 5rem;
 }
 
 footer li {
@@ -706,9 +710,7 @@ footer li a {
 }
 
 footer li a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: var(--cyan);
-          text-decoration-color: var(--cyan);
+  color: var(--cyan);
 }
 
 footer li span {
@@ -717,9 +719,7 @@ footer li span {
 }
 
 footer li span:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: var(--cyan);
-          text-decoration-color: var(--cyan);
+  color: var(--cyan);
 }
 
 /*  Media Queries */
