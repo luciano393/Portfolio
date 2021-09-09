@@ -245,7 +245,7 @@ header .btn-menu {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 0.5rem solid var(--cyan);
+  border: 0.2rem solid var(--cyan);
   -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
           box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
@@ -526,6 +526,14 @@ header .btn-menu {
   width: 100%;
 }
 
+.about .cv {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: -1rem;
+  font-size: 2rem;
+}
+
 /* Sección contact */
 .contact .row {
   display: -webkit-box;
@@ -630,7 +638,7 @@ header .btn-menu {
   width: 100%;
   text-align: center;
   font-size: 1.6rem;
-  background-color: var(--color-error);
+  background-color: var(--cyan);
   color: #fff;
   -webkit-transition: all 800ms ease;
   transition: all 800ms ease;
