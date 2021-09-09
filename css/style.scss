@@ -35,6 +35,9 @@ html::-webkit-scrollbar-thumb{
 body{
     background:#b3b3b3;
     background-image: url(/images/low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
   
 section{
