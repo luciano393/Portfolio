@@ -179,7 +179,7 @@ header {
     .box-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 1.5rem;
         .box {
             flex: 1 1 30rem;
             border-radius: .5rem;
@@ -578,6 +578,9 @@ footer {
     }
     .home {
         min-height: 70vh;
+    }
+    .box-container .box {
+        margin-bottom: 2rem;
     }
     .technologies {
         .box-container {
